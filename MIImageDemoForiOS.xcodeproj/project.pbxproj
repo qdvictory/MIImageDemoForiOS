@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F173CBEC153F343100A2BAEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBEB153F343100A2BAEE /* UIKit.framework */; };
+		F173CBEE153F343100A2BAEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBED153F343100A2BAEE /* Foundation.framework */; };
+		F173CBF0153F343100A2BAEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBEF153F343100A2BAEE /* CoreGraphics.framework */; };
+		F173CBF6153F343100A2BAEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F173CBF4153F343100A2BAEE /* InfoPlist.strings */; };
+		F173CBF8153F343100A2BAEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F173CBF7153F343100A2BAEE /* main.m */; };
+		F173CBFC153F343100A2BAEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F173CBFB153F343100A2BAEE /* AppDelegate.m */; };
+		F173CBFF153F343100A2BAEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F173CBFE153F343100A2BAEE /* ViewController.m */; };
+		F173CC02153F343100A2BAEE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F173CC00153F343100A2BAEE /* ViewController_iPhone.xib */; };
+		F173CC05153F343200A2BAEE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F173CC03153F343200A2BAEE /* ViewController_iPad.xib */; };
+		F173CC0D153F343200A2BAEE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CC0C153F343200A2BAEE /* SenTestingKit.framework */; };
+		F173CC0E153F343200A2BAEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBEB153F343100A2BAEE /* UIKit.framework */; };
+		F173CC0F153F343200A2BAEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBED153F343100A2BAEE /* Foundation.framework */; };
+		F173CC17153F343200A2BAEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F173CC15153F343200A2BAEE /* InfoPlist.strings */; };
+		F173CC1A153F343200A2BAEE /* MIImageDemoForiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F173CC19153F343200A2BAEE /* MIImageDemoForiOSTests.m */; };
+		F173CC26153F345A00A2BAEE /* libMIData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CC23153F345A00A2BAEE /* libMIData.a */; };
+		F173CC27153F345A00A2BAEE /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = F173CC25153F345A00A2BAEE /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F173CC10153F343200A2BAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F173CBDE153F343100A2BAEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F173CBE6153F343100A2BAEE;
+			remoteInfo = MIImageDemoForiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F173CBE7153F343100A2BAEE /* MIImageDemoForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIImageDemoForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F173CBEB153F343100A2BAEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F173CBED153F343100A2BAEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F173CBEF153F343100A2BAEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F173CBF3153F343100A2BAEE /* MIImageDemoForiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MIImageDemoForiOS-Info.plist"; sourceTree = "<group>"; };
+		F173CBF5153F343100A2BAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F173CBF7153F343100A2BAEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F173CBF9153F343100A2BAEE /* MIImageDemoForiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIImageDemoForiOS-Prefix.pch"; sourceTree = "<group>"; };
+		F173CBFA153F343100A2BAEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F173CBFB153F343100A2BAEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F173CBFD153F343100A2BAEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F173CBFE153F343100A2BAEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F173CC01153F343100A2BAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		F173CC04153F343200A2BAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		F173CC0B153F343200A2BAEE /* MIImageDemoForiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIImageDemoForiOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F173CC0C153F343200A2BAEE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F173CC14153F343200A2BAEE /* MIImageDemoForiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MIImageDemoForiOSTests-Info.plist"; sourceTree = "<group>"; };
+		F173CC16153F343200A2BAEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F173CC18153F343200A2BAEE /* MIImageDemoForiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIImageDemoForiOSTests.h; sourceTree = "<group>"; };
+		F173CC19153F343200A2BAEE /* MIImageDemoForiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIImageDemoForiOSTests.m; sourceTree = "<group>"; };
+		F173CC23153F345A00A2BAEE /* libMIData.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMIData.a; path = MIImageDemoForiOS/libMIData.a; sourceTree = "<group>"; };
+		F173CC24153F345A00A2BAEE /* MIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIImage.h; path = MIImageDemoForiOS/MIImage.h; sourceTree = "<group>"; };
+		F173CC25153F345A00A2BAEE /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = MIImageDemoForiOS/test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F173CBE4153F343100A2BAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CBEC153F343100A2BAEE /* UIKit.framework in Frameworks */,
+				F173CBEE153F343100A2BAEE /* Foundation.framework in Frameworks */,
+				F173CBF0153F343100A2BAEE /* CoreGraphics.framework in Frameworks */,
+				F173CC26153F345A00A2BAEE /* libMIData.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F173CC07153F343200A2BAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CC0D153F343200A2BAEE /* SenTestingKit.framework in Frameworks */,
+				F173CC0E153F343200A2BAEE /* UIKit.framework in Frameworks */,
+				F173CC0F153F343200A2BAEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F173CBDC153F343100A2BAEE = {
+			isa = PBXGroup;
+			children = (
+				F173CC23153F345A00A2BAEE /* libMIData.a */,
+				F173CC24153F345A00A2BAEE /* MIImage.h */,
+				F173CC25153F345A00A2BAEE /* test.png */,
+				F173CBF1153F343100A2BAEE /* MIImageDemoForiOS */,
+				F173CC12153F343200A2BAEE /* MIImageDemoForiOSTests */,
+				F173CBEA153F343100A2BAEE /* Frameworks */,
+				F173CBE8153F343100A2BAEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F173CBE8153F343100A2BAEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBE7153F343100A2BAEE /* MIImageDemoForiOS.app */,
+				F173CC0B153F343200A2BAEE /* MIImageDemoForiOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F173CBEA153F343100A2BAEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBEB153F343100A2BAEE /* UIKit.framework */,
+				F173CBED153F343100A2BAEE /* Foundation.framework */,
+				F173CBEF153F343100A2BAEE /* CoreGraphics.framework */,
+				F173CC0C153F343200A2BAEE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F173CBF1153F343100A2BAEE /* MIImageDemoForiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBFA153F343100A2BAEE /* AppDelegate.h */,
+				F173CBFB153F343100A2BAEE /* AppDelegate.m */,
+				F173CBFD153F343100A2BAEE /* ViewController.h */,
+				F173CBFE153F343100A2BAEE /* ViewController.m */,
+				F173CC00153F343100A2BAEE /* ViewController_iPhone.xib */,
+				F173CC03153F343200A2BAEE /* ViewController_iPad.xib */,
+				F173CBF2153F343100A2BAEE /* Supporting Files */,
+			);
+			path = MIImageDemoForiOS;
+			sourceTree = "<group>";
+		};
+		F173CBF2153F343100A2BAEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F173CBF3153F343100A2BAEE /* MIImageDemoForiOS-Info.plist */,
+				F173CBF4153F343100A2BAEE /* InfoPlist.strings */,
+				F173CBF7153F343100A2BAEE /* main.m */,
+				F173CBF9153F343100A2BAEE /* MIImageDemoForiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F173CC12153F343200A2BAEE /* MIImageDemoForiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F173CC18153F343200A2BAEE /* MIImageDemoForiOSTests.h */,
+				F173CC19153F343200A2BAEE /* MIImageDemoForiOSTests.m */,
+				F173CC13153F343200A2BAEE /* Supporting Files */,
+			);
+			path = MIImageDemoForiOSTests;
+			sourceTree = "<group>";
+		};
+		F173CC13153F343200A2BAEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F173CC14153F343200A2BAEE /* MIImageDemoForiOSTests-Info.plist */,
+				F173CC15153F343200A2BAEE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F173CBE6153F343100A2BAEE /* MIImageDemoForiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F173CC1D153F343200A2BAEE /* Build configuration list for PBXNativeTarget "MIImageDemoForiOS" */;
+			buildPhases = (
+				F173CBE3153F343100A2BAEE /* Sources */,
+				F173CBE4153F343100A2BAEE /* Frameworks */,
+				F173CBE5153F343100A2BAEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIImageDemoForiOS;
+			productName = MIImageDemoForiOS;
+			productReference = F173CBE7153F343100A2BAEE /* MIImageDemoForiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F173CC0A153F343200A2BAEE /* MIImageDemoForiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F173CC20153F343200A2BAEE /* Build configuration list for PBXNativeTarget "MIImageDemoForiOSTests" */;
+			buildPhases = (
+				F173CC06153F343200A2BAEE /* Sources */,
+				F173CC07153F343200A2BAEE /* Frameworks */,
+				F173CC08153F343200A2BAEE /* Resources */,
+				F173CC09153F343200A2BAEE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F173CC11153F343200A2BAEE /* PBXTargetDependency */,
+			);
+			name = MIImageDemoForiOSTests;
+			productName = MIImageDemoForiOSTests;
+			productReference = F173CC0B153F343200A2BAEE /* MIImageDemoForiOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F173CBDE153F343100A2BAEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Chlova;
+			};
+			buildConfigurationList = F173CBE1153F343100A2BAEE /* Build configuration list for PBXProject "MIImageDemoForiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F173CBDC153F343100A2BAEE;
+			productRefGroup = F173CBE8153F343100A2BAEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F173CBE6153F343100A2BAEE /* MIImageDemoForiOS */,
+				F173CC0A153F343200A2BAEE /* MIImageDemoForiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F173CBE5153F343100A2BAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CBF6153F343100A2BAEE /* InfoPlist.strings in Resources */,
+				F173CC02153F343100A2BAEE /* ViewController_iPhone.xib in Resources */,
+				F173CC05153F343200A2BAEE /* ViewController_iPad.xib in Resources */,
+				F173CC27153F345A00A2BAEE /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F173CC08153F343200A2BAEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CC17153F343200A2BAEE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F173CC09153F343200A2BAEE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F173CBE3153F343100A2BAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CBF8153F343100A2BAEE /* main.m in Sources */,
+				F173CBFC153F343100A2BAEE /* AppDelegate.m in Sources */,
+				F173CBFF153F343100A2BAEE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F173CC06153F343200A2BAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173CC1A153F343200A2BAEE /* MIImageDemoForiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F173CC11153F343200A2BAEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F173CBE6153F343100A2BAEE /* MIImageDemoForiOS */;
+			targetProxy = F173CC10153F343200A2BAEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F173CBF4153F343100A2BAEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F173CBF5153F343100A2BAEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F173CC00153F343100A2BAEE /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F173CC01153F343100A2BAEE /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F173CC03153F343200A2BAEE /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F173CC04153F343200A2BAEE /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		F173CC15153F343200A2BAEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F173CC16153F343200A2BAEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F173CC1B153F343200A2BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F173CC1C153F343200A2BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F173CC1E153F343200A2BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIImageDemoForiOS/MIImageDemoForiOS-Prefix.pch";
+				INFOPLIST_FILE = "MIImageDemoForiOS/MIImageDemoForiOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MIImageDemoForiOS\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F173CC1F153F343200A2BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIImageDemoForiOS/MIImageDemoForiOS-Prefix.pch";
+				INFOPLIST_FILE = "MIImageDemoForiOS/MIImageDemoForiOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MIImageDemoForiOS\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F173CC21153F343200A2BAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MIImageDemoForiOS.app/MIImageDemoForiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIImageDemoForiOS/MIImageDemoForiOS-Prefix.pch";
+				INFOPLIST_FILE = "MIImageDemoForiOSTests/MIImageDemoForiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F173CC22153F343200A2BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MIImageDemoForiOS.app/MIImageDemoForiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MIImageDemoForiOS/MIImageDemoForiOS-Prefix.pch";
+				INFOPLIST_FILE = "MIImageDemoForiOSTests/MIImageDemoForiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F173CBE1153F343100A2BAEE /* Build configuration list for PBXProject "MIImageDemoForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F173CC1B153F343200A2BAEE /* Debug */,
+				F173CC1C153F343200A2BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F173CC1D153F343200A2BAEE /* Build configuration list for PBXNativeTarget "MIImageDemoForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F173CC1E153F343200A2BAEE /* Debug */,
+				F173CC1F153F343200A2BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F173CC20153F343200A2BAEE /* Build configuration list for PBXNativeTarget "MIImageDemoForiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F173CC21153F343200A2BAEE /* Debug */,
+				F173CC22153F343200A2BAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F173CBDE153F343100A2BAEE /* Project object */;
+}
