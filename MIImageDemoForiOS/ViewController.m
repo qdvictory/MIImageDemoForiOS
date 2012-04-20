@@ -25,6 +25,7 @@
     imageview.image = image.image;
     [self.view addSubview:imageview];
     [imageview release];
+    [image release];
 }
 
 - (void)viewDidUnload
