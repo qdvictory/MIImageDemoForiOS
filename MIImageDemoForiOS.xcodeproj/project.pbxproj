@@ -57,8 +57,8 @@
 		F173CC18153F343200A2BAEE /* MIImageDemoForiOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIImageDemoForiOSTests.h; sourceTree = "<group>"; };
 		F173CC19153F343200A2BAEE /* MIImageDemoForiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIImageDemoForiOSTests.m; sourceTree = "<group>"; };
 		F173CC23153F345A00A2BAEE /* libMIData.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMIData.a; path = MIImageDemoForiOS/libMIData.a; sourceTree = "<group>"; };
-		F173CC24153F345A00A2BAEE /* MIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIImage.h; path = MIImageDemoForiOS/MIImage.h; sourceTree = "<group>"; };
 		F173CC25153F345A00A2BAEE /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = MIImageDemoForiOS/test.png; sourceTree = "<group>"; };
+		F17B2154155B468900B99CBC /* MIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIImage.h; path = ../../../Desktop/imgmaker/MIData/MIData/MIImage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 		F173CBDC153F343100A2BAEE = {
 			isa = PBXGroup;
 			children = (
+				F17B2154155B468900B99CBC /* MIImage.h */,
 				F173CC23153F345A00A2BAEE /* libMIData.a */,
-				F173CC24153F345A00A2BAEE /* MIImage.h */,
 				F173CC25153F345A00A2BAEE /* test.png */,
 				F173CBF1153F343100A2BAEE /* MIImageDemoForiOS */,
 				F173CC12153F343200A2BAEE /* MIImageDemoForiOSTests */,
@@ -380,6 +380,7 @@
 		F173CC1E153F343200A2BAEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMPRESS_PNG_FILES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MIImageDemoForiOS/MIImageDemoForiOS-Prefix.pch";
 				INFOPLIST_FILE = "MIImageDemoForiOS/MIImageDemoForiOS-Info.plist";
@@ -395,6 +396,7 @@
 		F173CC1F153F343200A2BAEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMPRESS_PNG_FILES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MIImageDemoForiOS/MIImageDemoForiOS-Prefix.pch";
 				INFOPLIST_FILE = "MIImageDemoForiOS/MIImageDemoForiOS-Info.plist";
@@ -460,6 +462,7 @@
 				F173CC1F153F343200A2BAEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F173CC20153F343200A2BAEE /* Build configuration list for PBXNativeTarget "MIImageDemoForiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +471,7 @@
 				F173CC22153F343200A2BAEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
