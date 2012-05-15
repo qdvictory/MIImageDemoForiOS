@@ -19,20 +19,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-
-//    //get image with name
-//    UIImageView *imageview = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
-//    imageview.image = [MIImage imageWithNamed:@"test.png" secret:@"123"];
-//    [self.view addSubview:imageview];
-//    [imageview release];
+    //get image with name
+    UIImageView *imageview = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    imageview.image = [MIImage imageWithNamed:@"test.png" secret:@"123"];
+    [self.view addSubview:imageview];
+    [imageview release];
     
     //or 
     
-    //get image with path
-    UIImageView *imageview = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
-    imageview.image = [MIImage imageWithPath:[[NSBundle mainBundle] pathForResource:@"test.png" ofType:nil] secret:@"123"];
-    [self.view addSubview:imageview];
-    [imageview release];
+//    //get image with path
+//    UIImageView *imageview = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+//    imageview.image = [MIImage imageWithPath:[[NSBundle mainBundle] pathForResource:@"test.png" ofType:nil] secret:@"123"];
+//    [self.view addSubview:imageview];
+//    [imageview release];
 }
 
 - (void)viewDidUnload

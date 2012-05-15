@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1014D52156296AA002DFFA7 /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1014D51156296AA002DFFA7 /* test@2x.png */; };
 		F173CBEC153F343100A2BAEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBEB153F343100A2BAEE /* UIKit.framework */; };
 		F173CBEE153F343100A2BAEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBED153F343100A2BAEE /* Foundation.framework */; };
 		F173CBF0153F343100A2BAEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F173CBEF153F343100A2BAEE /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1014D51156296AA002DFFA7 /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "test@2x.png"; path = "MIImageDemoForiOS/test@2x.png"; sourceTree = "<group>"; };
 		F173CBE7153F343100A2BAEE /* MIImageDemoForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIImageDemoForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F173CBEB153F343100A2BAEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F173CBED153F343100A2BAEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +93,7 @@
 			children = (
 				F17B2154155B468900B99CBC /* MIImage.h */,
 				F173CC23153F345A00A2BAEE /* libMIData.a */,
+				F1014D51156296AA002DFFA7 /* test@2x.png */,
 				F173CC25153F345A00A2BAEE /* test.png */,
 				F173CBF1153F343100A2BAEE /* MIImageDemoForiOS */,
 				F173CC12153F343200A2BAEE /* MIImageDemoForiOSTests */,
@@ -238,6 +241,7 @@
 				F173CC02153F343100A2BAEE /* ViewController_iPhone.xib in Resources */,
 				F173CC05153F343200A2BAEE /* ViewController_iPad.xib in Resources */,
 				F173CC27153F345A00A2BAEE /* test.png in Resources */,
+				F1014D52156296AA002DFFA7 /* test@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MIImageDemoForiOS/MIImageDemoForiOS-Prefix.pch";
 				INFOPLIST_FILE = "MIImageDemoForiOS/MIImageDemoForiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MIImageDemoForiOS\"",
@@ -400,6 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MIImageDemoForiOS/MIImageDemoForiOS-Prefix.pch";
 				INFOPLIST_FILE = "MIImageDemoForiOS/MIImageDemoForiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MIImageDemoForiOS\"",
